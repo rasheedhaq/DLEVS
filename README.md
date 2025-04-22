@@ -1,26 +1,15 @@
-Here’s a single copy-paste version of the improved `README.md` for your [DLEVS GitHub repository](https://github.com/rasheedhaq/DLEVS):
-
----
-
-```markdown
 # DLEVS: Deep Learning Enhanced Virtual Sensing for Aquaculture
 
 This repository provides the full implementation of the DLEVS framework, a deep learning-based virtual sensing system designed to predict water quality parameters in aquaculture using historical sensor data.
 
----
-
 ## 📁 Repository Structure
 
-```
 DLEVS/
 ├── data/                   # Water quality datasets (ADAK, MAC)
 ├── notebooks/              # Jupyter notebooks for model training & evaluation
 ├── src/                    # Source code for models and preprocessing
 ├── requirements.txt        # Required Python packages
 └── README.md               # Project documentation
-```
-
----
 
 ## 🧠 Project Summary
 
@@ -34,8 +23,6 @@ DLEVS reduces dependency on physical sensors by using historical multivariate ti
 
 These models are evaluated using RMSE, MAE, and R² to assess prediction accuracy.
 
----
-
 ## 📊 Datasets
 
 Included datasets:
@@ -45,30 +32,20 @@ Included datasets:
 
 Please refer to the `data/` folder for more details.
 
----
-
 ## 🚀 Setup & Usage
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/rasheedhaq/DLEVS.git
 cd DLEVS
-```
 
 ### 2. Create a virtual environment and install dependencies
 
-```bash
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
 
 ### 3. Run experiments using Jupyter notebooks
-
-```bash
-jupyter notebook
-```
 
 Then open any notebook under the `notebooks/` folder to train and evaluate models:
 - `All_Models_Order2.ipynb`
@@ -86,17 +63,6 @@ Performance is assessed using:
 
 Each model’s output and plots are embedded in the respective notebooks.
 
----
-
-## 📄 Citation
-
-If you use this code or data, please cite:
-
-> Rasheed Abdul Haq K. P., Harigovindan V. P., Pao-Ann Hsiung.  
-> “DLEVS: Deep Learning Enhanced Virtual Sensing for Aquaculture Water Quality Prediction”, 2025.
-
----
-
 ## 📬 Contact
 
 For queries or collaboration opportunities:
@@ -104,8 +70,3 @@ For queries or collaboration opportunities:
 **Rasheed Abdul Haq K. P.**  
 📧 [rasheedabdulhaq@gmail.com](mailto:rasheedabdulhaq@gmail.com)  
 🔗 [https://github.com/rasheedhaq/DLEVS](https://github.com/rasheedhaq/DLEVS)
-```
-
----
-
-Let me know if you'd like a reorganized folder structure or a zipped template of the updated layout.
