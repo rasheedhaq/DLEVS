@@ -1,5 +1,9 @@
 # DLEVS: Deep Learning Enhanced Virtual Sensing for Aquaculture
 
+**Paper:** [Deep Learning Enhanced Virtual Sensing: A Cost-Effective Approach for Water Quality Monitoring in Aquaculture](https://ieeexplore.ieee.org/abstract/document/11016948)
+
+> Efficient monitoring of water quality parameters is crucial for the successful management of aquaculture systems by ensuring the health and growth of aquatic life. Traditional sensor-based systems are often cost-prohibitive, limiting their adoption, particularly in resource-constrained settings. In this research, we introduce a cost-effective method leveraging virtual sensing to estimate dissolved oxygen (DO) levels using solubility and interdependency equations. Furthermore, we propose deep learning-enhanced virtual sensing (DLEVS) employing deep recurrent neural networks, including long short-term memory, gated recurrent unit (GRU), their bidirectional variants, and attention mechanisms, to accurately estimate DO. With extensive hyperparameter tuning, we have identified that the attention-based GRU (A-GRU) model is optimal, achieving significant reductions in RMSE from 0.3802 to 0.1534 for ADAK dataset and from 0.7505 to 0.0848 for MAC dataset in comparison with conventional virtual sensing methods. Our findings demonstrate that the DLEVS mechanism delivers precise DO estimation with substantially reduced costs, presenting an appealing solution for aquaculture water quality monitoring.
+
 This repository provides the full implementation of the DLEVS framework, a deep learning-based virtual sensing system designed to predict water quality parameters in aquaculture using historical sensor data.
 
 ## 📁 Repository Structure
