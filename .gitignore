@@ -1,0 +1,6 @@
+# Ignore sensitive and large data files
+WBG_ADAK.csv
+WBG_ADAK.xlsx
+WBG_MAC.csv
+data_adak.csv
+data_mac.csv
